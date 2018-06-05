@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArenaPro.Domain", "ArenaPro\ArenaPro.Domain.csproj", "{390530FA-0091-4E1A-AF73-85997DFE2E26}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArenaPro.Test", "ArenaPro.Test\ArenaPro.Test.csproj", "{46AB9183-E3F2-414E-A551-AAECCDEAAF95}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArenaPro.SharedKernel", "ArenaPro.SharedKernel\ArenaPro.SharedKernel.csproj", "{6CD610E8-7B1C-4C5B-BAD0-5A594C5BE4B7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{C4446513-A5CA-42FB-9875-7B1C4A66F84D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArenaPro.Infrastructure.Identity", "ArenaPro.Infrastructure.Identity\ArenaPro.Infrastructure.Identity.csproj", "{ACA7F9B8-5983-46A6-B0F4-11FEBC59068D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArenaPro.Web", "ArenaPro.Web\ArenaPro.Web.csproj", "{86A745C9-D0AE-46EA-88A9-092D8CFDAFB4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArenaPro.Infrastructure.IoC", "ArenaPro.Infrastructure.IoC\ArenaPro.Infrastructure.IoC.csproj", "{19378DEA-2676-490A-AFFF-49BA5572B390}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{0F1E0FB1-794A-4A97-8D8D-4879C34DEDEB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{390530FA-0091-4E1A-AF73-85997DFE2E26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{390530FA-0091-4E1A-AF73-85997DFE2E26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{390530FA-0091-4E1A-AF73-85997DFE2E26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{390530FA-0091-4E1A-AF73-85997DFE2E26}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46AB9183-E3F2-414E-A551-AAECCDEAAF95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46AB9183-E3F2-414E-A551-AAECCDEAAF95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46AB9183-E3F2-414E-A551-AAECCDEAAF95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46AB9183-E3F2-414E-A551-AAECCDEAAF95}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6CD610E8-7B1C-4C5B-BAD0-5A594C5BE4B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CD610E8-7B1C-4C5B-BAD0-5A594C5BE4B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CD610E8-7B1C-4C5B-BAD0-5A594C5BE4B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CD610E8-7B1C-4C5B-BAD0-5A594C5BE4B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ACA7F9B8-5983-46A6-B0F4-11FEBC59068D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACA7F9B8-5983-46A6-B0F4-11FEBC59068D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACA7F9B8-5983-46A6-B0F4-11FEBC59068D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACA7F9B8-5983-46A6-B0F4-11FEBC59068D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86A745C9-D0AE-46EA-88A9-092D8CFDAFB4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86A745C9-D0AE-46EA-88A9-092D8CFDAFB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86A745C9-D0AE-46EA-88A9-092D8CFDAFB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86A745C9-D0AE-46EA-88A9-092D8CFDAFB4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19378DEA-2676-490A-AFFF-49BA5572B390}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19378DEA-2676-490A-AFFF-49BA5572B390}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19378DEA-2676-490A-AFFF-49BA5572B390}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19378DEA-2676-490A-AFFF-49BA5572B390}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{390530FA-0091-4E1A-AF73-85997DFE2E26} = {0F1E0FB1-794A-4A97-8D8D-4879C34DEDEB}
+		{6CD610E8-7B1C-4C5B-BAD0-5A594C5BE4B7} = {0F1E0FB1-794A-4A97-8D8D-4879C34DEDEB}
+		{ACA7F9B8-5983-46A6-B0F4-11FEBC59068D} = {C4446513-A5CA-42FB-9875-7B1C4A66F84D}
+		{19378DEA-2676-490A-AFFF-49BA5572B390} = {C4446513-A5CA-42FB-9875-7B1C4A66F84D}
+	EndGlobalSection
+EndGlobal

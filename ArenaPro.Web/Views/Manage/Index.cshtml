@@ -1,0 +1,47 @@
+﻿@model ArenaPro.Web.Model.IndexViewModel
+@{
+    ViewBag.Title = "Gerencie sua conta";
+}
+
+<h2>@ViewBag.Title.</h2>
+
+<p class="text-success">@ViewBag.StatusMessage</p>
+<div>
+    <h4>Change your account settings</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>Password:</dt>
+        <dd>
+            [
+            @if (Model.HasPassword)
+            {
+                @Html.ActionLink("Trocar de Senha", "ChangePassword")
+            }
+            else
+            {
+                @Html.ActionLink("Definir senha para conta local", "SetPassword")
+            }
+            ]
+        </dd>
+        <dt>External Logins:</dt>
+        <dd>
+            Logins Sociais: @Model.Logins.Count
+            @Html.ActionLink("[ Gerenciar ]", "ManageLogins")
+        </dd>
+            <dt>Phone Number:</dt>
+            <dd>
+                Número do Telefone: @(Model.PhoneNumber ?? "Nenhum") [
+                @if (Model.PhoneNumber != null)
+                {
+                    @Html.ActionLink("Trocar", "AddPhoneNumber")
+                    @: &nbsp;|&nbsp;
+                    @Html.ActionLink("Remover", "RemovePhoneNumber")
+                }
+                else
+                {
+                    @Html.ActionLink("Adicionar", "AddPhoneNumber")
+                }
+                ]
+            </dd>       
+</dl>
+</div>
